@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./icofont/icofont.css">
+    <link rel="stylesheet" href="./iconfont/style.css">
 </head>
 <body>
     <header class="header">
         <nav>
-            <div><a>Gmail</a></div>
+            <!-- <div><a>Gmail</a></div>
             <div><a>Imágenes</a></div>
             <div class="google-apps"><img src="./images/app-button_off.png" alt=""></div>
-            <div class="user-avatar">H</div>
+            <div class="user-avatar">H</div> -->
+            <ul class="nav-right-section">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Imágenes</a></li>
+                <li class="menu-apps"><a href="#"><p class="icon-apps"></p></a></li>
+                <li class="user-avatar"><a href="">H</a></li>
+            </ul>
         </nav>
     </header>
     <main class="main-container">
@@ -23,9 +29,10 @@
         </section>
         <section class="search-container">
             <div class="search-container__search-bar">
-                <i class="icofont-search-1"></i>
+                <span class="icon-search"></span>
                 <input class="search-container__input" type="text">
                 <i class="fas fa-microphone"></i>
+                <span class="icon-mic" style="cursor: pointer;"></span>
             </div>
         </section>
         <section>
